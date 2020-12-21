@@ -6,6 +6,7 @@ tags: [dataviz, matplotlib, altair]
 excerpt: "The scree plot, interactive altair plots, results table"
 altair-loader:
   altair-chart-1: "charts/clustermap.json"
+  altair-chart-2: "charts/clusterplot.json"
 toc: true
 toc_sticky: true
 ---
@@ -20,8 +21,13 @@ Below shows that the elbow in the plot of SSE against clustering solution is abo
 
 <div id="altair-chart-1"></div>
 
-This was produced using Altair and embedded in this static web page. 
+<div id="altair-chart-2"></div>
+
+These were produced using Altair and embedded in this static web page. 
 
 ```python
 import altair as alt
 alt.renderers.enable('notebook')
+```
+
+# 3. Results Table
