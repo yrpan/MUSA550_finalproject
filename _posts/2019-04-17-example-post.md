@@ -29,17 +29,13 @@ From the interactive Altair plot, we see that cluster 2 clearly dominated both t
 
 These were produced using Altair and embedded in this static web page. 
 
-```python
-import altair as alt
-alt.renderers.enable('notebook')
-```
-
 # 3. Results Table
 
 From the tabular results we see that there are three groups of distinct populations/communities with the following characteristics:
-•	cluster 0 (or #1): ethnic enclave of concentrated poverty (low-income, high ethnicity (~91%), low education)
-•	cluster 1: diverse community (mixed-income, mixed race (~40%), average education)
-•	cluster 2: high society (very high-income, predominantly white, high education (over 54% has a bachelor’s degree or higher))
+-	cluster 0 (or #1): ethnic enclave of concentrated poverty (low-income, high ethnicity (~91%), low education)
+-	cluster 1: diverse community (mixed-income, mixed race (~40%), average education)
+-	cluster 2: high society (very high-income, predominantly white, high education (over 54% has a bachelor’s degree or higher))
+
 We see that the clusters are indeed very distinct. The difference between the percent_bachmore of cluster 0 and 2 is nearly 5 times. Cluster 2’s income is twice of cluster 1 and 3 times of cluster 2.
 
 
