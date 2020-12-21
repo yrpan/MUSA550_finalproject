@@ -1,6 +1,6 @@
 ---
-title: "Example: Embedding Matplotlib Images"
-date: 2019-04-17
+title: "Clustering Analysis of Chicago Population"
+date: 2020-12-21
 published: true
 tags: [dataviz, matplotlib]
 excerpt: "This is an example blog post"
@@ -8,12 +8,10 @@ toc: true
 toc_sticky: true
 ---
 
-# Section 1
+# 1. Select # of clusters with the scree plot
 
-This is an example post. The posts are written in markdown.
+Below shows that the elbow in the plot of SSE against clustering solution is about 3 (from 2 to 3 there is a distinct drop in within groups sum of squares), after which this decrease drops off dramatically, suggesting that a 3-cluster solution may be a good fit to the data. Generally, a smaller number around 2 or 3 is better as it increases the interpretability of the clustering results.
 
-## Abandoned Cars
+![scree-plot]({{ site.url }}{{ site.baseurl }}/assets/images/screeplot.png)
 
-Below, we show the distance between residential sales and the average distance to the 5 nearest 311 calls for abandoned cars.
-
-![distances-abandoned-cars]({{ site.url }}{{ site.baseurl }}/assets/images/distance_to_abandoned_cars.png)
+# 2.
