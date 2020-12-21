@@ -1,9 +1,11 @@
 ---
-title: "Clustering Analysis of Chicago Population"
+title: "Data Visualizations for the K-Means Clustering Analysis of Chicago Population"
 date: 2020-12-21
 published: true
-tags: [dataviz, matplotlib]
-excerpt: "This is an example blog post"
+tags: [dataviz, matplotlib, altair]
+excerpt: "The scree plot, interactive altair plots, results table"
+altair-loader:
+  altair-chart-1: "charts/clustermap.json"
 toc: true
 toc_sticky: true
 ---
@@ -14,4 +16,12 @@ Below shows that the elbow in the plot of SSE against clustering solution is abo
 
 ![scree-plot]({{ site.url }}{{ site.baseurl }}/assets/images/screeplot.png)
 
-# 2.
+# 2. Interactive Altair Plots
+
+<div id="altair-chart-1"></div>
+
+This was produced using Altair and embedded in this static web page. 
+
+```python
+import altair as alt
+alt.renderers.enable('notebook')
